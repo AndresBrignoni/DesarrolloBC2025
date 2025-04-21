@@ -1,4 +1,4 @@
 *.app 
 launch.json 
 rad.json 
-.vscode\cache*
+
