@@ -1,7 +1,7 @@
 page 50103 "Course Editions"
 {
     CaptionML = ENU = 'Course Editions', ESP = 'Ediciones del curso';
-    PageType = List;
+    PageType = ListPart;
     ApplicationArea = All;
     UsageCategory = Lists;
     SourceTable = "Course Edition";
