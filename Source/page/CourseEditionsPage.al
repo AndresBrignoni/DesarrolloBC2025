@@ -3,7 +3,7 @@ page 50103 "Course Editions"
     CaptionML = ENU = 'Course Editions', ESP = 'Ediciones del curso';
     PageType = ListPart;
     ApplicationArea = All;
-    UsageCategory = Lists;
+    UsageCategory = None;
     SourceTable = "Course Edition";
 
     layout
@@ -12,7 +12,11 @@ page 50103 "Course Editions"
         {
             repeater(RepeaterControl)
             {
-                field("Course No."; Rec."Course No.") { }
+                field("Course No."; Rec."Course No.")
+                {
+                    Visible = false;  // lo podria quitar, pero poniendolo invisible le permito al usuario que lo agregue
+
+                }
                 field(Edition; Rec.Edition) { }
                 field("Start Date"; Rec."Start Date") { }
                 field("Max. students"; Rec."Max. students") { }

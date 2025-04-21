@@ -35,6 +35,10 @@ page 50101 "Course Card"
                 field(Name; Rec.Name) { }
             }
 
+
+
+
+
             group(TrainingDetails)
             {
                 CaptionML = ENU = 'TrainingDetails', ESP = 'Detalles';
@@ -44,6 +48,12 @@ page 50101 "Course Card"
                 field("Type (Option)"; Rec."Type (Option)") { }
                 field("Type (Enum)"; Rec."Type (Enum)") { }
             }
+
+            part(Editions; "Course Editions")
+            {
+                SubPageLink = "Course No." = field("No.");
+            }
+
             group(Invoicing)
             {
                 CaptionML = ENU = 'Invoicing', ESP = 'Facturación';

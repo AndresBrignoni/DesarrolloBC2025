@@ -26,7 +26,7 @@ page 50100 "Course List"
         {
             part(Editions; "Course Editions")
             {
-
+                SubPageLink = "Course No." = field("No.");
             }
         }
     }
