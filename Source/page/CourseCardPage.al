@@ -5,7 +5,7 @@ page 50101 "Course Card"
     ApplicationArea = All;
     UsageCategory = None;
 
-    // Lists
+    // Lists 
     // History
     // Administration
     // None   no aparece en el buscador
