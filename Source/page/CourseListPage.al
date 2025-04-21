@@ -24,10 +24,27 @@ page 50100 "Course List"
         }
         area(FactBoxes)
         {
-            part(Editions; "Course Editions")
+            part(Editions; "Course Editions Factbox")
             {
                 SubPageLink = "Course No." = field("No.");
             }
         }
+    }
+    actions
+    {
+        area(Navigation)
+        {
+            action(CourseEditions)
+            {
+                CaptionML = ENU = 'Course Editions', ESP = 'Ediciones del curso';
+                // RunObject abrir otro objeto entero (codeunit, pagina, report, xmlport, etc)
+                //  se ejecuta uno u otro Runobject o trigger OnAction
+                // trigger OnAction()
+
+                RunObject = page "Course Editions";
+                RunPageLink = "Course No." = field("No.");
+            }
+        }
+
     }
 }
