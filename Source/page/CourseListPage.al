@@ -7,7 +7,7 @@ page 50100 "Course List"
     SourceTable = Course;
     Editable = false;
     CardPageId = "Course Card";  // le digo que abra esa cuando hace click en el codigo
-
+    PromotedActionCategoriesML = ENU = 'New,Process,Report,MyCategory', ESP = 'Nuevo,Procesos,Reportes,MiCategoria';
     layout
     {
         area(Content)
@@ -43,6 +43,9 @@ page 50100 "Course List"
 
                 RunObject = page "Course Editions";
                 RunPageLink = "Course No." = field("No.");
+                Promoted = true;
+                PromotedCategory = Category4;
+
             }
         }
 
