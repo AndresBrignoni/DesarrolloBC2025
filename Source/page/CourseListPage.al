@@ -6,8 +6,7 @@ page 50100 "Course List"
     UsageCategory = Lists;
     SourceTable = Course;
     Editable = false;
-    CardPageId = "Course Card";  // le digo que abra esa cuando hace click en el codigo
-    PromotedActionCategoriesML = ENU = 'New,Process,Report,MyCategory', ESP = 'Nuevo,Procesos,Reportes,MiCategoria';
+    CardPageId = "Course Card";
     layout
     {
         area(Content)
@@ -37,15 +36,31 @@ page 50100 "Course List"
             action(CourseEditions)
             {
                 CaptionML = ENU = 'Course Editions', ESP = 'Ediciones del curso';
-                // RunObject abrir otro objeto entero (codeunit, pagina, report, xmlport, etc)
-                //  se ejecuta uno u otro Runobject o trigger OnAction
-                // trigger OnAction()
-
                 RunObject = page "Course Editions";
                 RunPageLink = "Course No." = field("No.");
-                Promoted = true;
-                PromotedCategory = Category4;
+            }
+        }
+        area(Promoted)
+        {
+            group(Category_New)
+            {
+                CaptionML = ENU = 'New', ESP = 'Nuevo';
+            }
+            group(Category_Process)
+            {
+                CaptionML = ENU = 'Process', ESP = 'Procesos';
+            }
+            group(Category_Report)
+            {
+                CaptionML = ENU = 'Report', ESP = 'Reportes';
+            }
+            group(Category_Category4)
+            {
+                CaptionML = ENU = 'MyCategory', ESP = 'MiCategoria';
 
+                actionref(CourseEditions_Promoted; CourseEditions)
+                {
+                }
             }
         }
 
