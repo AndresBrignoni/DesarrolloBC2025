@@ -7,7 +7,8 @@ table 50100 Course
         field(1; "No."; Code[20])
         //En realidad es de 20 pero le puse 5 publique y ahora me da error si lo cambio a 20 (ya preguntare como se hace)
         {
-            CaptionML = ENU = 'No.', ESP = 'N°';
+            //CaptionML = ENU = 'No.', ESP = 'N°';
+            Caption = 'No.';
             ToolTipML = ENU = 'Course Id', ESP = 'Id del curso';
             trigger OnValidate()
             var
