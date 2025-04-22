@@ -1,14 +1,14 @@
 enum 50100 "Course Type"
 {
-    CaptionML = ENU = 'Course Type', ESP = 'Tipo Curso';
+    Caption = 'Course Type', Comment = 'ESP = "Tipo Curso"';
     Extensible = true;  // esto el option no lo tiene
     value(0; " ") { }
     value(1; "Instructor-Lead")
     {
-        CaptionML = ENU = 'Instructor-Lead', ESP = 'Instructor-Guia';
+        Caption = 'Instructor-Lead', Comment = 'ESP = "Instructor-Guia"';
     }
     value(2; "Video Tutorial")
     {
-        CaptionML = ENU = 'Video Tutorial', ESP = 'Tutorial en video';
+        Caption = 'Video Tutorial', Comment = 'ESP = "Tutorial en video"';
     }
 }

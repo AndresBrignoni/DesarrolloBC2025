@@ -1,6 +1,6 @@
 table 50101 "Courses Setup"
 {
-    CaptionML = ENU = 'Courses Setup', ESP = 'Conf. cursos';
+    Caption = 'Courses Setup', Comment = 'ESP = "Conf. cursos"';
     DataClassification = CustomerContent;
 
     fields
@@ -12,7 +12,7 @@ table 50101 "Courses Setup"
         }
         field(2; "Course Nos."; Code[20])
         {
-            CaptionML = ENU = 'Course Nos.', ESP = 'N° cursos';
+            Caption = 'Course Nos.', Comment = 'ESP = "N° cursos"';
             TableRelation = "No. Series";
         }
     }

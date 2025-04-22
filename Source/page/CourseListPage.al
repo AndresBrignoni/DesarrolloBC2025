@@ -1,6 +1,6 @@
 page 50100 "Course List"
 {
-    CaptionML = ENU = 'Courses List', ESP = 'Lista Cursos';
+    Caption = 'Courses List', Comment = 'ESP = "Lista Cursos"';
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
@@ -35,7 +35,7 @@ page 50100 "Course List"
         {
             action(CourseEditions)
             {
-                CaptionML = ENU = 'Course Editions', ESP = 'Ediciones del curso';
+                Caption = 'Course Editions', Comment = 'ESP = "Ediciones del curso"';
                 RunObject = page "Course Editions";
                 RunPageLink = "Course No." = field("No.");
                 Image = "EditList";
@@ -45,19 +45,19 @@ page 50100 "Course List"
         {
             group(Category_New)
             {
-                CaptionML = ENU = 'New', ESP = 'Nuevo';
+                Caption = 'New', Comment = 'ESP = "Nuevo"';
             }
             group(Category_Process)
             {
-                CaptionML = ENU = 'Process', ESP = 'Procesos';
+                Caption = 'Process', Comment = 'ESP = "Procesos"';
             }
             group(Category_Report)
             {
-                CaptionML = ENU = 'Report', ESP = 'Reportes';
+                Caption = 'Report', Comment = 'ESP = "Reportes"';
             }
             group(Category_Category4)
             {
-                CaptionML = ENU = 'MyCategory', ESP = 'MiCategoria';
+                Caption = 'MyCategory', Comment = 'ESP = "MiCategoria"';
 
                 actionref(CourseEditions_Promoted; CourseEditions)
                 {
