@@ -7,7 +7,9 @@
     // esto queda a nivel del proyecto
     "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": [
-        "${CodeCop}"   
+        "${CodeCop}",
+        "${UICop}",
+        "${PerTenantExtensionCop}"   
     ],
     "al.ruleSetPath": "./.vscode/normasCursos.ruleset.json"
 }
