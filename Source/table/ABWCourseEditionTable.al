@@ -1,4 +1,4 @@
-table 50102 "Course Edition"
+table 50102 "ABW Course Edition"
 {
     Caption = 'Course Edition', Comment = 'ESP = "Edicion curso"';
     DataClassification = CustomerContent;
@@ -7,7 +7,7 @@ table 50102 "Course Edition"
         field(1; "Course No."; Code[20])
         {
             Caption = 'Course No.', Comment = 'ESP = "Nro. de curso"';
-            TableRelation = Course;
+            TableRelation = "ABW Course";
         }
         field(2; "Edition"; Code[20])
         {

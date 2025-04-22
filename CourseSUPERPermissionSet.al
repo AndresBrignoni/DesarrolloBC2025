@@ -1,15 +1,15 @@
-permissionset 50100 "CourseSUPER"
+permissionset 50100 "ABW CourseSUPER"
 {
     Assignable = true;
-    Permissions = tabledata Course = RIMD,
-        tabledata "Course Edition" = RIMD,
-        tabledata "Courses Setup" = RIMD,
-        table Course = X,
-        table "Course Edition" = X,
-        table "Courses Setup" = X,
-        page "Course Card" = X,
-        page "Course Editions" = X,
-        page "Course Editions Factbox" = X,
-        page "Course List" = X,
-        page "Courses Setup" = X;
+    Permissions = tabledata "ABW Course" = RIMD,
+        tabledata "ABW Course Edition" = RIMD,
+        tabledata "ABW Courses Setup" = RIMD,
+        table "ABW Course" = X,
+        table "ABW Course Edition" = X,
+        table "ABW Courses Setup" = X,
+        page "ABW Course Card" = X,
+        page "ABW Course Editions" = X,
+        page "ABW Course Editions Factbox" = X,
+        page "ABW Course List" = X,
+        page "ABW Courses Setup" = X;
 }

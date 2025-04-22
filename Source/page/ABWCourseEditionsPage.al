@@ -1,10 +1,10 @@
-page 50104 "Course Editions"
+page 50104 "ABW Course Editions"
 {
     Caption = 'Course Editions', Comment = 'ESP = "Ediciones del curso"';
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = "Course Edition";
+    SourceTable = "ABW Course Edition";
 
     layout
     {

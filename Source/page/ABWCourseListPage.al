@@ -1,12 +1,12 @@
-page 50100 "Course List"
+page 50100 "ABW Course List"
 {
     Caption = 'Courses List', Comment = 'ESP = "Lista Cursos"';
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = Course;
+    SourceTable = "ABW Course";
     Editable = false;
-    CardPageId = "Course Card";
+    CardPageId = "ABW Course Card";
     layout
     {
         area(Content)
@@ -23,7 +23,7 @@ page 50100 "Course List"
         }
         area(FactBoxes)
         {
-            part(Editions; "Course Editions Factbox")
+            part(Editions; "ABW Course Editions Factbox")
             {
                 SubPageLink = "Course No." = field("No.");
             }
@@ -36,7 +36,7 @@ page 50100 "Course List"
             action(CourseEditions)
             {
                 Caption = 'Course Editions', Comment = 'ESP = "Ediciones del curso"';
-                RunObject = page "Course Editions";
+                RunObject = page "ABW Course Editions";
                 RunPageLink = "Course No." = field("No.");
                 Image = "EditList";
             }

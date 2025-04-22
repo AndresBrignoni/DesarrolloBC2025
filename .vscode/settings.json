@@ -5,6 +5,8 @@
     "CRS.FileNamePatternExtensions": "<ObjectNameShort><ObjectTypeShortPascalCase>.al",
     "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort><ObjectTypeShortPascalCase>.al",
     // esto queda a nivel del proyecto
+    "CRS.ObjectNamePrefix": "ABW",
+    "CRS.RemovePrefixFromFilename": true,
     "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": [
         "${CodeCop}",
