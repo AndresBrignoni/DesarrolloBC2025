@@ -1,0 +1,20 @@
+{   "name": "Cursos",
+    "description": "Normas personalizadas para el desarrollo de cursos",
+    "rules": [
+        {
+            "id": "AA0218",
+            "action": "None",
+            "justification": "No quiero poner tantos tooltips"
+        },
+        {
+            "id": "AA0072",
+            "action": "Warning"
+        }
+        ,
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "El nombrado de archivos es diferente"
+        }
+    ]
+}

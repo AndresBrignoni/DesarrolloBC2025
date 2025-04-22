@@ -3,5 +3,11 @@
     "CRS.AlSubFolderName": "Source",
     "CRS.FileNamePattern": "<ObjectNameShort><ObjectTypeShortPascalCase>.al",
     "CRS.FileNamePatternExtensions": "<ObjectNameShort><ObjectTypeShortPascalCase>.al",
-    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort><ObjectTypeShortPascalCase>.al"
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort><ObjectTypeShortPascalCase>.al",
+    // esto queda a nivel del proyecto
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}"   
+    ],
+    "al.ruleSetPath": "./.vscode/normasCursos.ruleset.json"
 }
