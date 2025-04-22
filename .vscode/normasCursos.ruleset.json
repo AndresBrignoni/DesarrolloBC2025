@@ -15,6 +15,22 @@
             "id": "AA0215",
             "action": "None",
             "justification": "El nombrado de archivos es diferente"
+        },
+        {
+            "id": "AS0051",
+            "action": "None",
+            "justification": "No voy a la appsource"
+        },
+        {
+            "id": "AS0052",
+            "action": "None",
+            "justification": "No voy a la appsource"
+        }
+        ,
+        {
+            "id": "AS0092",
+            "action": "None",
+            "justification": "No voy a la appsource"
         }
     ]
 }

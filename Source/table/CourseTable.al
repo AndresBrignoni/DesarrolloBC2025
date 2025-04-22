@@ -1,6 +1,7 @@
 table 50100 Course
 {
     CaptionML = ENU = 'Courses', ESP = 'Cursos';
+    DataClassification = CustomerContent;
     fields
     {
         field(1; "No."; Code[20])
