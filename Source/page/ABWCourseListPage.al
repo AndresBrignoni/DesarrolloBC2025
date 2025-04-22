@@ -1,12 +1,12 @@
-page 50100 "ABW Course List"
+page 50100 "CLIP Course List"
 {
     Caption = 'Courses List', Comment = 'ESP = "Lista Cursos"';
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = "ABW Course";
+    SourceTable = "CLIP Course";
     Editable = false;
-    CardPageId = "ABW Course Card";
+    CardPageId = "CLIP Course Card";
     layout
     {
         area(Content)
@@ -14,7 +14,10 @@ page 50100 "ABW Course List"
             repeater(RepeaterControl)
             {
                 field("No."; Rec."No.") { }
-                field(Name; Rec.Name) { }
+                field(Name; Rec.Name)
+                {
+                    // ApplicationArea = Manufacturing;  // desaparece porque ese area no esta marcado para mostrar
+                }
                 field("Duration (hours)"; Rec."Duration (hours)") { }
                 field(Price; Rec.Price) { }
                 field("Language Code"; Rec."Language Code") { }
@@ -23,7 +26,7 @@ page 50100 "ABW Course List"
         }
         area(FactBoxes)
         {
-            part(Editions; "ABW Course Editions Factbox")
+            part(Editions; "CLIP Course Editions Factbox")
             {
                 SubPageLink = "Course No." = field("No.");
             }
@@ -36,7 +39,7 @@ page 50100 "ABW Course List"
             action(CourseEditions)
             {
                 Caption = 'Course Editions', Comment = 'ESP = "Ediciones del curso"';
-                RunObject = page "ABW Course Editions";
+                RunObject = page "CLIP Course Editions";
                 RunPageLink = "Course No." = field("No.");
                 Image = "EditList";
             }

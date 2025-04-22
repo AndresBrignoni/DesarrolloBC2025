@@ -1,4 +1,4 @@
-enum 50100 "ABW Course Type"
+enum 50100 "CLIP Course Type"
 {
     Caption = 'Course Type', Comment = 'ESP = "Tipo Curso"';
     Extensible = true;  // esto el option no lo tiene
