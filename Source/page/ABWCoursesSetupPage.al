@@ -1,13 +1,13 @@
 
-page 50102 "CLIP Courses Setup"
+page 50102 "ABW Courses Setup"
 {
-    AccessByPermission = TableData "CLIP Course" = R;
+    AccessByPermission = TableData "ABW Course" = R;
     ApplicationArea = Jobs;
     Caption = 'Courses Setup', Comment = 'ESP = "Conf. Cursos"';
     DeleteAllowed = false;
     InsertAllowed = false;   // es para que no permita ingresar sino se rompe la configuracion
     PageType = Card;
-    SourceTable = "CLIP Courses Setup";
+    SourceTable = "ABW Courses Setup";
     UsageCategory = Administration;
 
     layout

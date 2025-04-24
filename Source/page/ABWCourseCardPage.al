@@ -1,4 +1,4 @@
-page 50101 "CLIP Course Card"
+page 50101 "ABW Course Card"
 {
     Caption = 'Course Card', Comment = 'ESP = "Ficha Curso"';
     PageType = Card;
@@ -11,7 +11,7 @@ page 50101 "CLIP Course Card"
     // None   no aparece en el buscador
 
 
-    SourceTable = "CLIP Course";
+    SourceTable = "ABW Course";
 
     layout
     {
@@ -49,7 +49,7 @@ page 50101 "CLIP Course Card"
                 field("Type (Enum)"; Rec."Type (Enum)") { }
             }
 
-            part(Editions; "CLIP Course Editions Factbox")
+            part(Editions; "ABW Course Editions Factbox")
             {
                 SubPageLink = "Course No." = field("No.");
             }

@@ -1,15 +1,16 @@
-permissionset 50100 "CLIP CourseSUPER"
+permissionset 50100 "ABW CourseSUPER"
 {
+    Caption = 'All for Courses app', Comment = 'ESP="Todos los permisos para los cursos"';
     Assignable = true;
-    Permissions = tabledata "CLIP Course" = RIMD,
-        tabledata "CLIP Course Edition" = RIMD,
-        tabledata "CLIP Courses Setup" = RIMD,
-        table "CLIP Course" = X,
-        table "CLIP Course Edition" = X,
-        table "CLIP Courses Setup" = X,
-        page "CLIP Course Card" = X,
-        page "CLIP Course Editions" = X,
-        page "CLIP Course Editions Factbox" = X,
-        page "CLIP Course List" = X,
-        page "CLIP Courses Setup" = X;
+    Permissions = tabledata "ABW Course" = RIMD,
+        tabledata "ABW Course Edition" = RIMD,
+        tabledata "ABW Courses Setup" = RIMD,
+        table "ABW Course" = X,
+        table "ABW Course Edition" = X,
+        table "ABW Courses Setup" = X,
+        page "ABW Course Card" = X,
+        page "ABW Course Editions" = X,
+        page "ABW Course Editions Factbox" = X,
+        page "ABW Course List" = X,
+        page "ABW Courses Setup" = X;
 }

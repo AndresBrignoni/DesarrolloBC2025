@@ -1,10 +1,10 @@
-page 50103 "CLIP Course Editions Factbox"
+page 50103 "ABW Course Editions Factbox"
 {
     Caption = 'Course Editions', Comment = 'ESP = "Ediciones del curso"';
     PageType = ListPart;
     ApplicationArea = All;
     UsageCategory = None;
-    SourceTable = "CLIP Course Edition";
+    SourceTable = "ABW Course Edition";
 
     layout
     {

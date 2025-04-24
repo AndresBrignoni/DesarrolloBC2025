@@ -1,4 +1,7 @@
-table 50101 "CLIP Courses Setup"
+namespace ClipPlatform.Courses.Setup;
+using Microsoft.Foundation.NoSeries;
+
+table 50101 "ABW Courses Setup"
 {
     Caption = 'Courses Setup', Comment = 'ESP = "Conf. cursos"';
     DataClassification = CustomerContent;

@@ -1,4 +1,4 @@
-page 50105 "CLIP Application Area"
+page 50105 "ABW Application Area"
 {
     PageType = List;
     ApplicationArea = All;
