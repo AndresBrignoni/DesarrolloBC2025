@@ -33,6 +33,11 @@
           <note from="Developer" annotates="general" priority="2">ESP = "Duracion (horas)"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ABW Course - Field Duration (hours) - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2812176411 - Field 2139693550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gen. Prod. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABW Course - Field Gen. Prod. Posting Group - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2812176411 - Field 2273653569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Code</source>
           <note from="Developer" annotates="general" priority="2">ESP = "Codigo de lenguaje"</note>
@@ -73,6 +78,11 @@
           <note from="Developer" annotates="general" priority="2">ESP = " ,Instructor-Guia,Tutorial en Video"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ABW Course - Field Type (Option) - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="Table 2812176411 - Field 236064653 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Prod. Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABW Course - Field VAT Prod. Posting Group - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 855524175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Course Edition</source>
           <note from="Developer" annotates="general" priority="2">ESP = "Edicion curso"</note>
@@ -97,6 +107,321 @@
           <source>Start Date</source>
           <note from="Developer" annotates="general" priority="2">ESP = "Fecha inicio"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ABW Course Edition - Field Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 485863751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ADCS field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control ADCS - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 4270985946 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Advanced field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Advanced - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2573847538 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Assembly field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Assembly - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 316948521 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic AT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic AT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 954645138 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic AU field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic AU - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 1015930911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic BE field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic BE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3497033604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic CA field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic CA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2052731347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic CH field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic CH - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 1714913301 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic CZ field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic CZ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3448138181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic DE field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic DE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 428564119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic DK field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic DK - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 1165485984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic ES field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic ES - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 696698390 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic EU field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic EU - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3287982279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic FI field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic FI - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 1712710474 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic FR field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic FR - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3049389481 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic GB field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic GB - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 80145244 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic IS field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic IS - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2462022689 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic IT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic IT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 418318409 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic MX field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic MX - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2692572604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic NL field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic NL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3330269221 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic NO field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic NO - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 4098935386 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic NZ field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic NZ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3651291263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic RU field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic RU - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 899851472 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic SE field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic SE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2187635056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Basic US field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Basic US - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 5772636 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the BasicHR field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control BasicHR - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 503024588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Comments field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Comments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 1899417270 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Cost Accounting field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Cost Accounting - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2173385693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Dimensions field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Dimensions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3857146285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Intercompany field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Intercompany - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 4123757252 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Inventory Analysis field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Inventory Analysis - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2168374300 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item Budget field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Item Budget - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 200707616 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item Charges field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Item Charges - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 418423943 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item References field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Item References - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 392666526 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item Tracking field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Item Tracking - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3661919152 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Projects field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Jobs - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3891454143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Location field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Location - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 124933732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Manufacturing field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Manufacturing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 222620933 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Notes field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Notes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 574579408 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Order Promising field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Order Promising - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 4106336951 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Planning field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Planning - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 1614329298 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Prepayments field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Prepayments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3489829666 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Profile ID field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Profile ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 292812148 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Purch Return Order field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Purch Return Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3289007435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Purchase Analysis field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Purchase Analysis - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3312435578 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Purchase Budget field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Purchase Budget - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 1067410690 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Record Links field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Record Links - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3866851001 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Relationship Mgmt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Relationship Mgmt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3111013020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Reservation field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Reservation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 4101714206 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Analysis field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Sales Analysis - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2748057367 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Budget field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Sales Budget - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 1598289728 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Return Order field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Sales Return Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 3225393447 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Tax field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Sales Tax - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2187938695 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Service field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Service - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 163342058 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Suite field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Suite - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User ID field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 334623485 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VAT field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control VAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 811650819 - Control 1484878399 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Warehouse field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABW Application Area - Control Warehouse - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3432404847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Course Card</source>

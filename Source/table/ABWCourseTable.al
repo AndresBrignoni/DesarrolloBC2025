@@ -9,7 +9,7 @@ table 50100 "ABW Course"
         {
             //Caption = 'No.', Comment = 'ESP = "N°"';
             Caption = 'No.', Comment = 'ESP="N°"';
-            //ToolTip = 'Course Id', Comment = 'ESP = "Id del curso"';
+            ToolTip = 'Course Id', Comment = 'ESP = "Id del curso"';
             trigger OnValidate()
             var
                 CoursesSetup: Record "ABW Courses Setup";
@@ -62,11 +62,30 @@ table 50100 "ABW Course"
         {
             Caption = 'Type (Enum)', Comment = 'ESP = "Tipo (Enum)"';
         }
-        field(9; "No. Series"; Code[20])
+        field(56; "No. Series"; Code[20])
         {
             Caption = 'No. Series', Comment = 'ESP = "N° Serie"';
             Editable = false;
             TableRelation = "No. Series";
+        }
+        field(51; "Gen. Prod. Posting Group"; Code[20])
+        {
+            Caption = 'Gen. Prod. Posting Group';
+            TableRelation = "Gen. Product Posting Group";
+
+            trigger OnValidate()
+            var
+                GenProdPostingGrp: record "Gen. Product Posting Group";
+            begin
+                if xRec."Gen. Prod. Posting Group" <> "Gen. Prod. Posting Group" then
+                    if GenProdPostingGrp.ValidateVatProdPostingGroup(GenProdPostingGrp, "Gen. Prod. Posting Group") then
+                        Validate("VAT Prod. Posting Group", GenProdPostingGrp."Def. VAT Prod. Posting Group");
+            end;
+        }
+        field(58; "VAT Prod. Posting Group"; Code[20])
+        {
+            Caption = 'VAT Prod. Posting Group';
+            TableRelation = "VAT Product Posting Group";
         }
     }
 
@@ -132,4 +151,5 @@ table 50100 "ABW Course"
     local procedure OnBeforeOnInsert(var Course: Record "ABW Course"; var IsHandled: Boolean; var xCourse: Record "ABW Course")
     begin
     end;
+
 }
