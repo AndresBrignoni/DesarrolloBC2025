@@ -30,7 +30,7 @@ table 50100 "ABW Course"
 
 
         }
-        field(2; "Name"; Text[100])
+        field(2; Name; Text[100])
         {
             Caption = 'Name', Comment = 'ESP = "Nombre"';
         }
@@ -42,7 +42,7 @@ table 50100 "ABW Course"
         {
             Caption = 'Duration (hours)', Comment = 'ESP = "Duracion (horas)"';
         }
-        field(5; "Price"; Decimal)
+        field(5; Price; Decimal)
         {
             Caption = 'Price', Comment = 'ESP = "Precio"';
         }

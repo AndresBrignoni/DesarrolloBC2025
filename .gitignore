@@ -1,3 +1,4 @@
 *.app
 *.json
-*.xlf
+Translations/*.xlf
+.vscode/.alcache/*
