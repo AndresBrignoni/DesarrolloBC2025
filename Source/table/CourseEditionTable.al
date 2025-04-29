@@ -10,7 +10,7 @@ table 50102 "ABW Course Edition"
             Caption = 'Course No.', Comment = 'ESP = "Nro. de curso"';
             TableRelation = "ABW Course";
         }
-        field(2; "Edition"; Code[20])
+        field(2; Edition; Code[20])
         {
             Caption = 'Edition', Comment = 'ESP = "Edición"';
         }
