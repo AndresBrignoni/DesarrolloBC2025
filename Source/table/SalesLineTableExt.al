@@ -8,7 +8,8 @@ tableextension 50100 "ABW Sales Line" extends "Sales Line"
         {
             Caption = 'Course Edition', comment = 'ESP="Edición curso"';
             DataClassification = CustomerContent;
-            TableRelation = "ABW Course Edition";
+            TableRelation = "ABW Course Edition".Edition WHERE("Course No." = field("No."));
+
         }
     }
 }

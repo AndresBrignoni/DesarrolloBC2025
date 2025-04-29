@@ -2,6 +2,7 @@ table 50102 "ABW Course Edition"
 {
     Caption = 'Course Edition', Comment = 'ESP = "Edicion curso"';
     DataClassification = CustomerContent;
+    LookupPageId = "ABW Course Editions";
     fields
     {
         field(1; "Course No."; Code[20])
@@ -29,8 +30,13 @@ table 50102 "ABW Course Edition"
         {
             Clustered = true;
         }
-
+    }
+    fieldgroups
+    {
+        fieldgroup(DropDown; Edition, "Max. students", "Start Date") { }
+        fieldgroup(Brick; Edition, "Max. students", "Start Date") { }
 
     }
+
 
 }

@@ -2,6 +2,8 @@ table 50100 "ABW Course"
 {
     Caption = 'Courses', Comment = 'ESP = "Cursos"';
     DataClassification = CustomerContent;
+    LookupPageId = "ABW Course List";
+
     fields
     {
         field(1; "No."; Code[20])
@@ -87,6 +89,13 @@ table 50100 "ABW Course"
             Caption = 'VAT Prod. Posting Group';
             TableRelation = "VAT Product Posting Group";
         }
+    }
+
+    fieldgroups
+    {
+        fieldgroup(DropDown; "No.", Name, "Duration (hours)", "Type (Enum)", "Language Code") { }
+        fieldgroup(Brick; "No.", Name, Price) { }
+
     }
 
     trigger OnInsert()
