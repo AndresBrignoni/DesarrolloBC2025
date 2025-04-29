@@ -48,6 +48,11 @@
           <note from="Developer" annotates="general" priority="2">ESP = "Nombre"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ABW Course - Field Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2812176411 - Field 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Course Id</source>
+          <note from="Developer" annotates="general" priority="2">ESP = "Id del curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABW Course - Field No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Table 2812176411 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
           <note from="Developer" annotates="general" priority="2">ESP="N°"</note>
@@ -497,6 +502,11 @@
           <source>Specifies the number series code you can use to assign numbers to Courses.</source>
           <note from="Developer" annotates="general" priority="2">ESP = "Especifica el código de serie de números que puede utilizar para asignar números a los cursos."</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABW Courses Setup - Control Course Nos. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 583126390 - Field 855524175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Course Edition</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Edición curso"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ABW Sales Line - Field ABW Course Edition - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 305245651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Course Type</source>
